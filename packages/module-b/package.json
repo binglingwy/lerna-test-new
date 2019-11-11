@@ -1,6 +1,6 @@
 {
   "name": "module-b",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "module a",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "module-base": "^1.0.0"
+    "module-base": "^1.0.1"
   },
   "gitHead": "393a2beaa34a7350083d5266a5241b2ea6747603"
 }
