@@ -1,5 +1,6 @@
 node_modules/
 lerna-debug.log
+package-lock.json
 /.changelog
 
 .idea
