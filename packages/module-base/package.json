@@ -1,6 +1,6 @@
 {
   "name": "module-base",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "module a",
   "main": "index.js",
   "scripts": {
