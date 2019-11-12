@@ -1,1 +1,1 @@
-console.log('module-base-4');
+console.log('module-base-6');

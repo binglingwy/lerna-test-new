@@ -2,9 +2,23 @@
   "packages": [
     "packages/*"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "changelog": {
+    "repo": "binglingwy/lerna-test-new",
+    "cacheDir": ".changelog",
+    "labels": {
+      "PR: Breaking Change :boom:": ":boom: Breaking Change",
+      "PR: New Feature :rocket:": ":rocket: New Feature",
+      "PR: Bug Fix :bug:": ":bug: Bug Fix",
+      "PR: Docs :memo:": ":memo: Documentation",
+      "PR: Internal :house:": ":house: Internal",
+      "PR: Performance :running_woman:": ":running_woman: Performance"
+    }
+  },
   "command": {
     "publish": {
+      "allowBranch": "master", // 只在master分支执行publish
+      "conventionalCommits": true, // 生成changelog文件
       "ignoreChanges": [
         "*.md",
         "*.json"
