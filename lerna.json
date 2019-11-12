@@ -17,6 +17,8 @@
   },
   "command": {
     "publish": {
+      "allowBranch": "master", // 只在master分支执行publish
+      "conventionalCommits": true, // 生成changelog文件
       "ignoreChanges": [
         "*.md",
         "*.json"
